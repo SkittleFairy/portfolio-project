@@ -77,6 +77,31 @@ p {
   padding: 120px 60px;
 }
 
+.about-me-section {
+  background: var(--secondary-color);
+  margin: 30px;
+  padding: 160px 20px;
+}
+
+.about-me h1 {
+  font-size: 47px;
+  line-height: 80px;
+}
+
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-me .btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 42px;
@@ -94,5 +119,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-me-section {
+    text-align: center;
+    padding: 0;
   }
 }
